@@ -1,0 +1,314 @@
+[
+    {
+        "category": "Rumah dan Keluarga",
+        "question": "Apa sih arti keluarga bagimu? Adakah hal khusus yang kamu harapkan dari anggota keluargamu?",
+        "img": "1-1.webp"
+    },
+    {
+        "category": "Rumah dan Keluarga",
+        "question": "Apakah hal tersulit yang pernah/harus kamu sampaikan pada orangtua?",
+        "img": "1-2.webp"
+    },
+    {
+        "category": "Rumah dan Keluarga",
+        "question": "Adakah hal yang kamu selalu ingin sampaikan kepada anggota keluargamu, tapi tidak pernah kamu lakukan? Apa itu? Mengapa?",
+        "img": "1-3.webp"
+    },
+    {
+        "category": "Rumah dan Keluarga",
+        "question": "Ditanyakan oleh anak: Hal apa yang kalian ingin kami tidak mengalaminya?",
+        "img": "1-4.webp"
+    },
+    {
+        "category": "Rumah dan Keluarga",
+        "question": "Apakah pelajaran hidup terbaik yang pernah kamu alami?",
+        "img": "1-5.webp"
+    },
+    {
+        "category": "Rumah dan Keluarga",
+        "question": "Apa momen favorit kamu di dalam keluarga?",
+        "img": "1-6.webp"
+    },
+    {
+        "category": "Rumah dan Keluarga",
+        "question": "Coba gambarkan dengan kata-katamu sendiri bagaimana hubungan di dalam keluarga kita",
+        "img": "1-7.webp"
+    },
+    {
+        "category": "Rumah dan Keluarga",
+        "question": "Ditanyakan oleh anak: Hukuman terberat apa yang pernah/harus Ayah/Ibu berikan kepada kami? Apa alasannya?",
+        "img": "1-8.webp"
+    },
+
+
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Hal yang paling kamu suka atau tidak suka dari pertemananmu waktu remaja?",
+        "img": "2-1.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Siapa yang mempengaruhi gaya dan prilakumu?",
+        "img": "2-2.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Ceritakan hal memalukan yang pernah terjadi di sekolah dan bagaimana kamu melaluinya",
+        "img": "2-3.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Siapakah teman terbaikmu? Mengapa kamu menyukainya?",
+        "img": "2-4.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Siapakah selebriti yang kamu sukai dan mengapa kamu menyukainya?",
+        "img": "2-5.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Apakah kenangan terindah yang pernah kamu alami masa sekolah yang masih kamu ingat hingga sekarang?",
+        "img": "2-6.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Apakah kamu memiliki geng/kelompok pertemanan tertentu? Anak tipe apakah kamu di sekolah?",
+        "img": "2-7.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Adakah teman yang tidak disukai oleh orang tuamu? Mengapa?",
+        "img": "2-8.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Apakah perubahan terbesar dalam hidupmu selama 10 tahun terakhir ini?",
+        "img": "2-9.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Ditanyakan oleh anak: Bagaimana ayah bertemu dengan ibu? Mengapa ayah menyukai ibu? (dan sebaliknya). <br> Ditanyakan oleh orangtua: Bagaimana kamu bertemu dengan pacarmu? (jika ada) Mengapa kamu menyukainya?",
+        "img": "2-10.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Pernahkan kamu melakukan bullying pada teman? Mengapa?",
+        "img": "2-11.webp"
+    },
+    {
+        "category": "Pertemanan dan Relasi Sosial",
+        "question": "Pernahkan kamu menjadi korban bullying? Mengapa?",
+        "img": "2-12.webp"
+    },
+
+
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Apakah pelajaran hidup terberat yang pernah kamu alami saat remaja?",
+        "img": "3-1.webp"
+    },
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Pernahkan kamu melanggar aturan sekolah? Apa hukuman terberat yang pernah kamu dapatkan?",
+        "img": "3-2.webp"
+    },
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Pernahkan kamu membolos dari sekolah? Apa alasannya?",
+        "img": "3-3.webp"
+    },
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Apakah penyesalan yang kamu rasakan tentang masa sekolah?",
+        "img": "3-4.webp"
+    },
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Apakah kamu pernah mencoba ganja? Apa alasannya?",
+        "img": "3-5.webp"
+    },
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Apakah kamu pernah berurusan dengan polisi? Jika pernah, hukuman apa yang pernah kamu dapatkan?",
+        "img": "3-6.webp"
+    },
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Apakah kamu pernah minum minuman keras? Apa alasannya?",
+        "img": "3-7.webp"
+    },
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Pernahkan kamu menolak ajakan teman untuk melakukan hal terlarang?",
+        "img": "3-8.webp"
+    },
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Apakah melanggar peraturan itu menimbulkan rasa bangga di antara teman-teman?",
+        "img": "3-9.webp"
+    },
+    {
+        "category": "Prilaku Berisiko",
+        "question": "Mana yang kamu pilih: Kehilangan teman karena menolak ajakan atau melakukan hal beresiko dengan teman-teman?",
+        "img": "3-10.webp"
+    },
+
+
+    {
+        "category": "Literasi Digital",
+        "question": "Sebutkan tiga channel Youtube favoritmu dan kenapa kamu menyukainya?",
+        "img": "4-1.webp"
+    },
+    {
+        "category": "Literasi Digital",
+        "question": "Pernahkan kamu menyesali postingan/komentar yang kamu tulis di media sosial?",
+        "img": "4-2.webp"
+    },
+    {
+        "category": "Literasi Digital",
+        "question": "Pernahkan kamu berhubungan dengan seseorang yang kamu kenal secara online? Dan bagaimana kemudian hubungan itu berjalan?",
+        "img": "4-3.webp"
+    },
+    {
+        "category": "Literasi Digital",
+        "question": "Kapan terakhir kamu mengganti password media sosialmu?",
+        "img": "4-4.webp"
+    },
+    {
+        "category": "Literasi Digital",
+        "question": "Apa keahlian di bidang digital yang harus kamu miliki untuk bertahan di era ini?",
+        "img": "4-5.webp"
+    },
+    {
+        "category": "Literasi Digital",
+        "question": "Dalam skala 1-10, seberapa besar peran media sosial bagi pertemananmu?",
+        "img": "4-6.webp"
+    },
+
+
+    {
+        "category": "Kesehatan Seksual dan Reproduksi",
+        "question": "Siapa pacar pertamamu dan kenapa kamu berpacaran dengannya?",
+        "img": "5-1.webp"
+    },
+    {
+        "category": "Kesehatan Seksual dan Reproduksi",
+        "question": "Pernahkah kamu merasakan cinta pada pandangan pertama? Siapakah dia dan bagaimana rasanya? Apa yang terjadi dengannya?",
+        "img": "5-2.webp"
+    },
+    {
+        "category": "Kesehatan Seksual dan Reproduksi",
+        "question": "Apa pengalaman menarik tentang menstruasi pertamamu?",
+        "img": "5-3.webp"
+    },
+    {
+        "category": "Kesehatan Seksual dan Reproduksi",
+        "question": "Apa yang kamu rasakan saat mimpi basah pertama?",
+        "img": "5-4.webp"
+    },
+    {
+        "category": "Kesehatan Seksual dan Reproduksi",
+        "question": "Bagian apa dari tubuhmu yang paling kamu syukuri?",
+        "img": "5-5.webp"
+    },
+    {
+        "category": "Kesehatan Seksual dan Reproduksi",
+        "question": "Apa pendapatmu tentang seks pranikah?",
+        "img": "5-6.webp"
+    },
+    {
+        "category": "Kesehatan Seksual dan Reproduksi",
+        "question": "Penyakit menular seksual apa yang kamu pernah dengar dan paling kamu takuti?",
+        "img": "5-7.webp"
+    },
+    {
+        "category": "Kesehatan Seksual dan Reproduksi",
+        "question": "Apakah teman-temanmu ada yang sudah pernah melakukan seks pranikah?",
+        "img": "5-8.webp"
+    },
+    {
+        "category": "Kesehatan Seksual dan Reproduksi",
+        "question": "Jika ada temanmu yang melakukan seks pranikah, apakah kamu akan menasihatinya?",
+        "img": "5-9.webp"
+    },
+
+
+    {
+        "category": "Kesehatan Mental",
+        "question": "Apa yang kamu tidak sukai dari dirimu sendiri?",
+        "img": "6-1.webp"
+    },
+    {
+        "category": "Kesehatan Mental",
+        "question": "Adakah pengalaman buruk yang pernah terjadi padamu? Dan bagaimana kamu menanganinya?",
+        "img": "6-2.webp"
+    },
+    {
+        "category": "Kesehatan Mental",
+        "question": "Apakah ketakutan terbesar dalam hidupmu? Apakah hal tersebut akhirnya terjadi?",
+        "img": "6-3.webp"
+    },
+    {
+        "category": "Kesehatan Mental",
+        "question": "Kapan menurutmu seseorang membutuhkan bantuan psikolog?",
+        "img": "6-4.webp"
+    },
+    {
+        "category": "Kesehatan Mental",
+        "question": "Apakah trauma yang pernah kamu alami yang jangan sampai terjadi pada anggota keluargamu?",
+        "img": "6-5.webp"
+    },
+    {
+        "category": "Kesehatan Mental",
+        "question": "Apakah aktivitas favorit yang kamu lakukan untuk menghilangkan stres?",
+        "img": "6-6.webp"
+    },
+    {
+        "category": "Kesehatan Mental",
+        "question": "Apakah kejadian terakhir yang paling membuatmu tertekan?",
+        "img": "6-7.webp"
+    },
+
+
+    {
+        "category": "Perencanaan Masa Depan",
+        "question": "Apakah pelajaran kesukaanmu?",
+        "img": "7-1.webp"
+    },
+    {
+        "category": "Perencanaan Masa Depan",
+        "question": "Apakah capaian paling membanggakan yang pernah kamu raih di sekolah?",
+        "img": "7-2.webp"
+    },
+    {
+        "category": "Perencanaan Masa Depan",
+        "question": "Pernahkah kamu berpikir tentang jurusan, universitas, dan kota tempat kamu akan menuntut ilmu? Jika pernah, ceritakan tentang hal tersebut?",
+        "img": "7-3.webp"
+    },
+    {
+        "category": "Perencanaan Masa Depan",
+        "question": "Pernahkah kamu membayangkan tentang pernikahan? Seperti apa pernikahan yang kamu inginkan? Siapa/seperti apa sosok yang ingin kamu nikahi?",
+        "img": "7-4.webp"
+    },
+    {
+        "category": "Perencanaan Masa Depan",
+        "question": "Adakah cita-cita atau impian yang masih ingin kamu raih?",
+        "img": "7-5.webp"
+    },
+    {
+        "category": "Perencanaan Masa Depan",
+        "question": "Apa menurutmu peran terpenting seorang ayah atau ibu?",
+        "img": "7-6.webp"
+    },
+    {
+        "category": "Perencanaan Masa Depan",
+        "question": "Umur berapa kamu berencana untuk menikah dan mengapa?",
+        "img": "7-7.webp"
+    },
+    {
+        "category": "Perencanaan Masa Depan",
+        "question": "Menurutmu apa kekuatan dan juga kelemahan terbesarmu?",
+        "img": "7-8.webp"
+    }
+]

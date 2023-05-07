@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> 1001 Bicara </title>
+    <link rel="stylesheet" href="styles/app.css">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!-- TRIGGER TO GET IMAGE -->
+    <img src="img/1-category.webp" class="hidden">
+    <img src="img/2-category.webp" class="hidden">
+    <img src="img/3-category.webp" class="hidden">
+    <img src="img/4-category.webp" class="hidden">
+    <img src="img/5-category.webp" class="hidden">
+    <img src="img/6-category.webp" class="hidden">
+
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    1001 Bicara
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#" class="nav__link">Kartu</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav__link">Semua Kartu</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav__link">Tentang</a>
+                    </li>
+
+                    <li>
+                        <span class="nav__link" style="color: red; cursor: pointer;" onclick="resetCards()">Reset Kartu</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--=============== END HEADER ===============-->
+
+    <!--=============== CARD ===============-->
+    <section class="card__section container">
+        <div class="card__images">
+            <p class="card__images-total" id="card-total">
+            </p>
+            <img id="card-image" src="img/default.webp" alt="card-image">
+        </div>
+        <div class="card__details">
+            <span class="card__details-category" id="card-category">
+            </span>
+            <p class="card__details-question" id="card-question">
+            </p>
+        </div>
+        <button class="card__button" id="generate" onclick="generateCard()">Generate</button>
+    </section>
+    <!--=============== END CARD ===============-->
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

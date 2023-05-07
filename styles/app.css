@@ -1,0 +1,403 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 3.5rem;
+
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --first-color: hsl(220, 68%, 54%);
+    --first-color-lighten: hsl(220, 68%, 97%);
+    --title-color: hsl(220, 48%, 28%);
+    --text-color: hsl(220, 12%, 45%);
+    --body-color: hsl(220, 100%, 99%);
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Poppins", sans-serif;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/*========== Responsive typography==========*/
+@media screen and (min-width: 1024px) {
+    :root {
+        --normal-font-size: 1rem;
+        --small-font-size: 0.875rem;
+        --smaller-font-size: 0.813rem;
+    }
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
+
+/*=============== HEADER ===============*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 8px hsla(220, 68%, 12%, 0.1);
+    background-color: var(--body-color);
+    z-index: var(--z-fixed);
+}
+
+/*=============== NAV ===============*/
+.nav {
+    height: var(--header-height);
+}
+
+.nav__data {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+    transition: color 0.3s;
+}
+
+.nav__logo i {
+    font-size: 1.25rem;
+}
+
+.nav__logo:hover {
+    color: var(--first-color);
+}
+
+.nav__toggle {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.nav__toggle-menu,
+.nav__toggle-close {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    position: absolute;
+    display: grid;
+    place-items: center;
+    inset: 0;
+    cursor: pointer;
+    transition: opacity 0.1s, transform 0.4s;
+}
+
+.nav__toggle-close {
+    opacity: 0;
+}
+
+.nav__link {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.nav__link:hover {
+    background-color: var(--first-color-lighten);
+}
+
+
+/*=============== CARD ===============*/
+.card__section {
+    max-width: 350px;
+    border-radius: 25px;
+    background: var(--body-color);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 5rem auto 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card__images img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.card__images-total {
+    position: absolute;
+    font-size: var(--normal-font-size);
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    width: 100px;
+    border-radius: 10px;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+.card__details-category {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--first-color);
+}
+
+.card__details-question {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+}
+
+.card__button {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 20px;
+    background: var(--first-color);
+    color: var(--first-color-lighten);
+    outline: none;
+    border: none;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+/* Navigation for mobile devices */
+@media screen and (max-width: 1118px) {
+    .nav__menu {
+        background-color: var(--body-color);
+        position: absolute;
+        left: 0;
+        top: 2.5rem;
+        width: 100%;
+        height: calc(100vh - 3.5rem);
+        overflow: auto;
+        padding-block: 1.5rem 4rem; /* padding top - bottom */
+        pointer-events: none;
+        opacity: 0;
+        transition: top 0.4s, opacity 0.3s;
+    }
+
+    .nav__menu::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+
+    .nav__menu::-webkit-scrollbar-thumb {
+        background-color: hsl(200, 12%, 70%);
+    }
+}
+
+
+/* Show menu */
+.show-menu {
+    opacity: 1;
+    top: 3.5rem;
+    pointer-events: initial;
+}
+
+/* Show icon */
+.show-icon .nav__toggle-menu {
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+.show-icon .nav__toggle-close {
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+/* @media screen and (max-width: 300px) {
+} */
+
+/* For large devices */
+@media screen and (min-width: 1118px) {
+  /* Nav */
+    .nav {
+        height: calc(var(--header-height) + 2rem);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav__toggle {
+        display: none;
+    }
+
+    .nav__list {
+        display: flex;
+        column-gap: 3rem;
+        height: 100%;
+    }
+
+    .nav li {
+        display: flex;
+    }
+
+    .nav__link {
+        padding: 0;
+    }
+
+    .nav__link:hover {
+        background-color: initial;
+    }
+
+    .card__section {
+        margin-top: 7rem;
+    }
+}
+
+@media screen and (min-width: 1152px) {
+    .container {
+        margin-inline: auto; /* margin left and right auto */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
