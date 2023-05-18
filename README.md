@@ -39,6 +39,16 @@ Once you have done with your setup. You need to put your website online!
 
 I highly recommend to use [Netlify](https://netlify.com/) to achieve this on the EASIEST WAY
 
+## Support me
+
+- 👉 🇮🇩 [Trakteer](https://trakteer.id/lrmn) free access
+- 👉 🌍 [BuyMeACoffe](https://www.buymeacoffee.com/lrmn)
+- 👉 🌍 [Ko-Fi](https://ko-fi.com/lrmn7)
+
+---
+
+Copyright © 2020 by [L RMN](https://is-a.fun/)
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
